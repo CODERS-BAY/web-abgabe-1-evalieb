@@ -1,9 +1,47 @@
 body{
-    background-color: blueviolet;
+    background-color: bisque;
+    margin: 0;
+    font-size: 110%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 
 }
-
+section{
+    display: flex; 
+    width: 100%;   
+}
 h1{
-    background-color: yellow;
+    background-color: papayawhip;
+    text-align: center;
     color: blue;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    padding: 20px;
+}
+
+
+
+article{
+    width: 50%;
+    padding: 2%;
+}
+
+@media screen and (max-width: 720px){
+    section{
+        display: block;
+    }
+
+    article{ 
+         display: block;
+         width: 100%;
+    }
 }
